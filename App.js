@@ -108,6 +108,16 @@ const App = () => {
           </View>
         </View>
         
+        {/* border */}
+        <View style={{height: 16, backgroundColor: '#F2F2F4', marginTop: 18}}></View>
+
+        {/* section news */}
+        <View>
+          <View>
+            <Image source={require('./dummy/sepak-bola.jpg')}/>
+          </View>
+          <View></View>
+        </View>
 
       </View>
 
