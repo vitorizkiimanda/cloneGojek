@@ -50,6 +50,65 @@ const App = () => {
             </View>
           </View>
         </View>
+
+        {/* mainFeature */}
+        <View style={{flexDirection: 'row', flexWrap: 'wrap', marginTop: 18}}>
+          <View style={{justifyContent: 'space-between', flexDirection: 'row', width: '100%'}}>
+            <View style={{ width: `${100/4}%`, alignItems: 'center'}}>
+              <View style={{width: 58, height: 58, borderWidth: 1, borderColor: '#EFEFEF', borderRadius: 18, justifyContent: 'center', alignItems: 'center'}}>
+                <Image source={require('./icon/go-ride.png')} />
+              </View>
+              <Text style={{fontSize: 11, fontWeight: 'bold', textAlign: 'center', marginTop: 6}}>GO-RIDE</Text>
+            </View>
+            <View style={{ width: `${100/4}%`, alignItems: 'center'}}>
+              <View style={{width: 58, height: 58, borderWidth: 1, borderColor: '#EFEFEF', borderRadius: 18, justifyContent: 'center', alignItems: 'center'}}>
+                <Image source={require('./icon/go-car.png')} />
+              </View>
+              <Text style={{fontSize: 11, fontWeight: 'bold', textAlign: 'center', marginTop: 6}}>GO-CAR</Text>
+            </View>
+            <View style={{ width: `${100/4}%`, alignItems: 'center'}}>
+              <View style={{width: 58, height: 58, borderWidth: 1, borderColor: '#EFEFEF', borderRadius: 18, justifyContent: 'center', alignItems: 'center'}}>
+                <Image source={require('./icon/go-bluebird.png')} />
+              </View>
+              <Text style={{fontSize: 11, fontWeight: 'bold', textAlign: 'center', marginTop: 6}}>GO-BLUEBIRD</Text>
+            </View>
+            <View style={{ width: `${100/4}%`, alignItems: 'center'}}>
+              <View style={{width: 58, height: 58, borderWidth: 1, borderColor: '#EFEFEF', borderRadius: 18, justifyContent: 'center', alignItems: 'center'}}>
+                <Image source={require('./icon/go-send.png')} />
+              </View>
+              <Text style={{fontSize: 11, fontWeight: 'bold', textAlign: 'center', marginTop: 6}}>GO-SEND</Text>
+            </View>
+          </View>
+
+          <View style={{justifyContent: 'space-between', flexDirection: 'row', width: '100%', marginTop: 18}}>
+            <View style={{ width: `${100/4}%`, alignItems: 'center'}}>
+              <View style={{width: 58, height: 58, borderWidth: 1, borderColor: '#EFEFEF', borderRadius: 18, justifyContent: 'center', alignItems: 'center'}}>
+                <Image source={require('./icon/go-deals.png')} />
+              </View>
+              <Text style={{fontSize: 11, fontWeight: 'bold', textAlign: 'center', marginTop: 6}}>GO-DEALS</Text>
+            </View>
+            <View style={{ width: `${100/4}%`, alignItems: 'center'}}>
+              <View style={{width: 58, height: 58, borderWidth: 1, borderColor: '#EFEFEF', borderRadius: 18, justifyContent: 'center', alignItems: 'center'}}>
+                <Image source={require('./icon/go-pulsa.png')} />
+              </View>
+              <Text style={{fontSize: 11, fontWeight: 'bold', textAlign: 'center', marginTop: 6}}>GO-PULSA</Text>
+            </View>
+            <View style={{ width: `${100/4}%`, alignItems: 'center'}}>
+              <View style={{width: 58, height: 58, borderWidth: 1, borderColor: '#EFEFEF', borderRadius: 18, justifyContent: 'center', alignItems: 'center'}}>
+                <Image source={require('./icon/go-food.png')} />
+              </View>
+              <Text style={{fontSize: 11, fontWeight: 'bold', textAlign: 'center', marginTop: 6}}>GO-FOOD</Text>
+            </View>
+            <View style={{ width: `${100/4}%`, alignItems: 'center'}}>
+              <View style={{width: 58, height: 58, borderWidth: 1, borderColor: '#EFEFEF', borderRadius: 18, justifyContent: 'center', alignItems: 'center'}}>
+                <Image source={require('./icon/go-more.png')} />
+              </View>
+              <Text style={{fontSize: 11, fontWeight: 'bold', textAlign: 'center', marginTop: 6}}>MORE</Text>
+            </View>
+          </View>
+        </View>
+        
+
       </View>
 
       {/* bottom tabs */}
