@@ -5,7 +5,8 @@ import {
   View,
   Text,
   Image,
-  TextInput
+  TextInput,
+  TouchableOpacity
 } from 'react-native';
 
 const App = () => {
@@ -124,9 +125,9 @@ const App = () => {
             <View style={{ paddingTop: 16, paddingBottom: 20, borderBottomColor: '#E8E9ED', borderBottomWidth: 1 , marginBottom: 20}}>
               <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#1C1C1C' }}>GO-NEWS</Text>
               <Text style={{ fontSize: 14, fontWeight: 'normal', color: '#7A7A7A', marginBottom: 11 }}>Dimas Drajat selamatkan penalti, Timnas U-23 kalahkan Brunei</Text>
-              <View style={{ backgroundColor: '#61A756', paddingHorizontal: 12, paddingVertical: 11, alignSelf: 'flex-end', borderRadius: 4}}>
+              <TouchableOpacity activeOpacity={0.5} style={{ backgroundColor: '#61A756', paddingHorizontal: 12, paddingVertical: 11, alignSelf: 'flex-end', borderRadius: 4}}>
                 <Text style={{ fontSize: 13, fontWeight: 'bold', color: 'white', textAlign: 'center' }}>READ</Text>
-              </View>
+              </TouchableOpacity>
             </View>
           </View>
 
