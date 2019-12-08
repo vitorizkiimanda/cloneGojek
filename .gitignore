@@ -54,3 +54,8 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
+android/java_pid787.hprof
+android/java_pid901.hprof
+android/.settings/org.eclipse.buildship.core.prefs
+android/app/.classpath
+android/app/.settings/org.eclipse.buildship.core.prefs
